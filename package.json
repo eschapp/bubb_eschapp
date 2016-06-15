@@ -1,0 +1,27 @@
+{
+  "name": "bubb_eschapp",
+  "version": "1.0.0",
+  "description": "a test site",
+  "main": "js/index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eschapp/bubb_eschapp.git"
+  },
+  "keywords": [
+    "web",
+    "design"
+  ],
+  "author": "eschapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eschapp/bubb_eschapp/issues"
+  },
+  "homepage": "https://github.com/eschapp/bubb_eschapp#readme"
+}
