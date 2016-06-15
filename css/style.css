@@ -12,14 +12,16 @@ a:hover {
 
 header {
   font-size: 12px;
+  background-color: #999;
 }
 
-.logo {
+#logo {
   background-image: url("/css/images/bubb.png")
+
 }
 
 li {
-  color: #999;
+  color: #222;
   float: left;
   display: inline-block;
   padding: 2px;
@@ -31,6 +33,6 @@ li {
 }
 
 li:hover {
-  color: 444;
+  color: 222;
   border-bottom-color: 777;
 }
