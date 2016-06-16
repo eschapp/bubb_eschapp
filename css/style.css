@@ -12,7 +12,7 @@ a:hover {
 
 header {
   font-size: 12px;
-  background-color: #999;
+  background-color: #fff;
 }
 
 #logo {
@@ -29,10 +29,24 @@ li {
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
-  border-bottom: 2px #ddd solid;
+
 }
 
 li:hover {
   color: 222;
-  border-bottom-color: 777;
+  border-bottom-color: #3DAFCA;
+}
+
+nav li {
+  padding-right: 10px;
+  color:;
+  border-bottom: 4px #eee solid;
+}
+
+nav li a{
+  color: #777777;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: #3DAFCA;
 }
