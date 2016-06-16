@@ -16,6 +16,7 @@ h3 {
   font-size: 18px;
 }
 
+/*  The Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 header {
   font-size: 12px;
   background-color: #fff;
@@ -103,6 +104,8 @@ nav li a:hover {
   display: inline;
 }
 
+
+/*  The Hero/Main Photo Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .hero {
   margin-bottom: 60px;
   margin-left: 40px;
@@ -126,6 +129,8 @@ nav li a:hover {
   line-height: 0;
 }
 
+
+/*  The Featured Articles thing ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .list-features {
     position: relative;
     margin: 73px 40px 0 40px;
@@ -162,6 +167,7 @@ nav li a:hover {
   border-top: 5px solid #3DAFCA;
 }
 
+/*  The portfolio ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .portfolio {
   padding: 60px 0 0 40px;
   text-align: center;
@@ -171,16 +177,56 @@ nav li a:hover {
 .portfolio img {
   padding: 0;
   margin: 0 -5px 0 0;
+  width: 50%;
 }
 
+
+/*  About Our Studio ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.about {
+  margin: 40px 40px 80px 40px;
+
+}
+
+.about h2, h3{
+  text-align: center;
+}
+
+.about .col-md-6 {
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.about .col-md-6 p {
+  margin-bottom: 20px;
+}
+
+.about .col-md-6.grey {
+  background: #4C535F;
+  color: #797F8B;
+}
+
+/*  The team holding the kittens  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/*  Our Clients ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .clients {
   text-align: center;
   padding: 25px;
+  margin-top: 40px;
 }
 .clients img {
   width: 20%;
   margin: 2px 2px 2px 2px;
 }
+
+/*  Testimonials ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/*  Contact Form ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .contact {
   margin: 40px;
   text-align: right;
@@ -212,3 +258,28 @@ nav li a:hover {
   float: right;
   width: 100%;
 }*/
+
+/*  Team Photo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.team-photo img {
+  width: 100%;
+  margin: 40px 0 0 0;
+  padding: 0 40px 0 40px;
+}
+
+/*  Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+  padding: 40px;
+  margin: 0 40px 0 40px;
+  text-align: left;
+  background-color: #5D6875;
+  height: 150px;
+}
+
+footer .col-md-4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+
