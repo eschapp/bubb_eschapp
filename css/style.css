@@ -97,6 +97,14 @@ nav li a:hover {
   text-decoration: none;
 }
 
+.clients {
+  text-align: center;
+  padding: 25px;
+}
+.clients img {
+  width: 20%;
+  margin: 2px 2px 2px 2px;
+}
 .contact {
   margin: 40px;
   text-align: right;
@@ -108,7 +116,7 @@ nav li a:hover {
 
 .contact {
     width: 100%;
-    padding: 0 25px;
+    padding: 25px;
     position: relative;
     margin: 0 auto 0 auto;
     float: left;
