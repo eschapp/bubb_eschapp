@@ -1,5 +1,6 @@
 body {
   font-family: 'Oldenburg', cursive;
+  margin: 10px;
 }
 
 a {
@@ -13,12 +14,33 @@ a:hover {
 header {
   font-size: 12px;
   background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
-#logo {
-  background-image: url("/css/images/bubb.png")
+.col-md-3.logo {
+  /*background-image: url("/css/images/bubb.png");*/
+  margin-top: 30px;
 
 }
+
+.col-md-3.logo img {
+  float: left;
+}
+
+#image_logo {
+  height: 75px;
+  width: 75px;
+  margin: -25px 20px 0 20px;
+  color: #3DAFCA;
+  background: url(/css/images/bubb.png) 0 0;
+}
+
+.col-md-3.logo p {
+  text-align: left;
+}
+
 
 li {
   color: #222;
@@ -38,8 +60,8 @@ li:hover {
 }
 
 nav li {
+  font-size: 14px;
   padding-right: 10px;
-  color:;
   border-bottom: 4px #eee solid;
 }
 
@@ -56,13 +78,15 @@ nav li a:hover {
 }
 
 .contact {
-  padding: 10px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
+  color: #000000;
+  font-weight: bolder;
 }
 
 .fa {
   text-align: center;
   padding: 35px 15px 0 0;
-  color: #777777;
+  color: #999999;
 }
 
 .fa:hover {
