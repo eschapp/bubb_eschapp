@@ -96,3 +96,26 @@ nav li a:hover {
 .fa a {
   text-decoration: none;
 }
+
+.contact {
+  margin: 40px;
+  text-align: right;
+}
+
+.contact h2, h3{
+  text-align: center;
+}
+
+.contact ul {
+    width: 50%;
+    padding: 0 25px;
+    position: relative;
+    margin: 6px 0;
+    float: left;
+    box-sizing: border-box;
+
+}
+/*.contact ul.right{
+  float: right;
+  width: 100%;
+}*/
