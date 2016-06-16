@@ -50,3 +50,25 @@ nav li a:hover {
   text-decoration: none;
   color: #3DAFCA;
 }
+
+.col-md-2.contact p {
+  text-align: right;
+}
+
+.contact {
+  padding: 10px 0px 0px 0px;
+}
+
+.fa {
+  text-align: center;
+  padding: 35px 15px 0 0;
+  color: #777777;
+}
+
+.fa:hover {
+  color: #3DAFCA;
+}
+
+.fa a {
+  text-decoration: none;
+}
