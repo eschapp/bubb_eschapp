@@ -73,6 +73,29 @@ nav li a:hover {
   color: #3DAFCA;
 }
 
+.hero {
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+
+.hero .heart {
+  font-size: 100px;
+  letter-spacing: -7px;
+}
+
+.hero .subheart {
+  font-size: 24px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-family: helvetica, arial;
+  font-size: 18px;
+  color: grey;
+  line-height: 0;
+}
+
 .col-md-2.contact p {
   text-align: right;
 }
