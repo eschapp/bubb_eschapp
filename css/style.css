@@ -74,8 +74,12 @@ nav li {
 nav li a{
   color: #777777;
 }
-nav li a:hover {
+nav li a:hover { /* add transitions */
   text-decoration: none;
+  transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: initial;
+    transition-delay: initial;
   color: #3DAFCA;
 }
 
